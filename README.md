@@ -4,17 +4,18 @@
 The Animal Intake Program is a Java-based application designed to assist organizations in tracking animals through intake, training, job assignment, and service readiness. The system was developed using object-oriented principles and guided by UML diagrams to align with client requirements and ensure maintainable, extensible code.
 
 **Features**
--Record intake details of rescue animals
--Track training status and job assignment
--Update animal availability and reservation status
--Modular code structure for future enhancements
+- Record intake details of rescue animals
+- Track training status and job assignment
+- Update animal availability and reservation status
+- Modular code structure for future enhancements
 
 **At the core of the application is the RescueAnimal class, which includes:**
--Private instance variables for attributes such as name, type, gender, age, weight, acquisition details, training status, reservation, and service location.
--Public accessor and mutator methods for each variable.
--A no-argument constructor as a starting point for object initialization.
+- Private instance variables for attributes such as name, type, gender, age, weight, acquisition details, training status, reservation, and service location.
+- Public accessor and mutator methods for each variable.
+- A no argument constructor as a starting point for object initialization.
 
 # **Example Code from the RescueAnimal class::**
+// 
 import java.lang.String;
 
 public class RescueAnimal {
