@@ -15,7 +15,7 @@ The Animal Intake Program is a Java-based application designed to assist organiz
 - A no argument constructor as a starting point for object initialization.
 
 # **Example Code from the RescueAnimal class::**
-// 
+<pre> 
 import java.lang.String;
 
 public class RescueAnimal {
@@ -44,6 +44,7 @@ public class RescueAnimal {
 	  public void setName(String name) {
 		  this.name = name;
 	  }
+</pre>
 
 # **Design Approach**
 Before development, UML class diagrams were created to map out the structure and relationships of the system. This helped ensure that the final implementation would reflect client expectations and allow for clean code organization.
